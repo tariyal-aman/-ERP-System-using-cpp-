@@ -1,2 +1,4 @@
-# cpp-projects
-This repository contains some projects which is completed by cpp only and for database file handling is used(flat files)
+# ERP using CPP
+This whole projects is completed using cpp only.
+index.cpp file have code of whole ERP and if you want to run directly(without compiling) then open index.exe
+all others files(.txt files) are flat files which are used as database
