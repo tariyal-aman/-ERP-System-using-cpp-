@@ -1,0 +1,46 @@
+	puts("enter your roll number");
+	int i,j=501;
+	long long int ro,r,m;
+	cin>>ro;
+	char a;
+	fstream s;
+	s.open("stu.txt",ios::out|ios::in);
+	for(i=0;!s.eof();++i)
+	{
+		s>>r;
+		if(r==ro)
+		{
+			puts("HELLO ");
+			j=101;
+		}
+		s.get(a);
+		s.get(a);
+		while(a!='\n')
+		{
+			if(j==101)
+			cout<<a;
+			s.get(a);
+		}
+		s.get(a);
+		while(a!='\n')
+		{
+			s.get(a);
+		}
+		
+		s.get(a);
+		while(a!='\n')
+		{
+			s.get(a);
+		}
+		s.get(a);
+		while(a!='\n')
+		{
+			s.get(a);
+		}
+		s>>m;
+		if(j==101)
+		break;
+	}
+if(j==501)
+puts("enter a valid roll number");
+}
